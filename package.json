@@ -1,0 +1,60 @@
+{
+  "name": "kanayago-lsp-client",
+  "displayName": "Kanayago LSP",
+  "description": "Language Server Protocol client for Kanayago Ruby syntax checker",
+  "version": "0.1.0",
+  "publisher": "kanayago",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/S-H-GAMELINKS/kanayago-lsp-vscode"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Linters"
+  ],
+  "keywords": [
+    "ruby",
+    "lsp",
+    "syntax",
+    "checker",
+    "kanayago"
+  ],
+  "activationEvents": [
+    "onLanguage:ruby"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "configuration": {
+      "type": "object",
+      "title": "Kanayago LSP",
+      "properties": {
+        "kanayago.trace.server": {
+          "type": "string",
+          "enum": [
+            "off",
+            "messages",
+            "verbose"
+          ],
+          "default": "off",
+          "description": "Traces the communication between VS Code and the language server."
+        },
+        "kanayago.serverPath": {
+          "type": "string",
+          "default": "kanayago",
+          "description": "Path to the kanayago executable."
+        }
+      }
+    }
+  },
+  "dependencies": {
+    "vscode-languageclient": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.75.0",
+    "@types/node": "^18.0.0"
+  }
+}
