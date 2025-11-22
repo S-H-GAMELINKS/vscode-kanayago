@@ -1,8 +1,8 @@
 {
-  "name": "kanayago-lsp-client",
-  "displayName": "Kanayago LSP",
+  "name": "vscode-kanayago",
+  "displayName": "VSCode Kanayago",
   "description": "Language Server Protocol client for Kanayago Ruby syntax checker",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "S-H-GAMELINKS",
   "repository": {
     "type": "git",
