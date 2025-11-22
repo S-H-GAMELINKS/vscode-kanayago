@@ -1,4 +1,8 @@
-# Kanayago LSP Client for VSCode
+# VSCode Kanayago
+
+[![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/S-H-GAMELINKS.vscode-kanayago)](https://marketplace.visualstudio.com/items?itemName=S-H-GAMELINKS.vscode-kanayago)
+[![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/S-H-GAMELINKS.vscode-kanayago)](https://marketplace.visualstudio.com/items?itemName=S-H-GAMELINKS.vscode-kanayago)
+[![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/S-H-GAMELINKS.vscode-kanayago)](https://marketplace.visualstudio.com/items?itemName=S-H-GAMELINKS.vscode-kanayago)
 
 Visual Studio Code extension for Kanayago Language Server Protocol.
 
@@ -27,9 +31,9 @@ Visual Studio Code extension for Kanayago Language Server Protocol.
    - In VSCode, press `Ctrl+Shift+P` and run `Extensions: Install from VSIX...`
    - Select the downloaded `.vsix` file
 
-### From Marketplace (Coming Soon)
+### From Marketplace
 
-Search for "Kanayago LSP" in the VSCode extensions marketplace.
+Install from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=S-H-GAMELINKS.vscode-kanayago) or search for "VSCode Kanayago" in the VSCode extensions marketplace.
 
 ## Configuration
 
