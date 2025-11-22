@@ -3,10 +3,10 @@
   "displayName": "Kanayago LSP",
   "description": "Language Server Protocol client for Kanayago Ruby syntax checker",
   "version": "0.1.0",
-  "publisher": "kanayago",
+  "publisher": "S-H-GAMELINKS",
   "repository": {
     "type": "git",
-    "url": "https://github.com/S-H-GAMELINKS/kanayago-lsp-vscode"
+    "url": "https://github.com/S-H-GAMELINKS/vscode-kanayago"
   },
   "license": "MIT",
   "engines": {
